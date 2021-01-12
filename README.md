@@ -20,7 +20,7 @@ Arguments
 
 Values
 -----
-- **$indexes:**  5     data.frame list   
+- **$indexes:**  A data frame of drought stress indexes (SSI, TOL, MP, GMP, STI).
 - **$scores:**   5     data.frame list   
 - **$corr1.:**  25     -none-     numeric
 - **$range:**    5     -none-     list   
