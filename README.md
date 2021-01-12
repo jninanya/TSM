@@ -20,9 +20,9 @@ Arguments
 
 Values
 -----
-- **$indexes:**  A data frame of drought stress indexes (SSI, TOL, MP, GMP, STI).
-- **$scores:**   5     data.frame list   
-- **$corr1.:**  25     -none-     numeric
+- **$indexes:** A data frame of the drought stress indexes SSI, TOL, MP, GMP, and STI.
+- **$scores:** A data frame of the Thiry's scores.
+- **$corr1.:**  A matrix of Pearson correlation among the drought stress indexes and the Thiry's scores.
 - **$range:**    5     -none-     list   
 - **$comb1.:**  18     data.frame list   
 - **$corr2.:**   2     data.frame list   
