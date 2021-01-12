@@ -15,5 +15,7 @@ To load the package type:
 Example
 -----
 ```{r eval=F}
-help(package = st4gi)
+n=20
+data=("id"=1:n,"ys"=runif(n)*5,"ys"=runif(n)*10)
+ts=Thiry("id","ys","yp",data)
 ```
