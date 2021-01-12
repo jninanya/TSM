@@ -11,6 +11,8 @@ ThiryScore(x,inv=FALSE)
 ```
 Arguments
 -----
+http://github.com - automatic!
+[GitHub](http://github.com)
 *nt:
 *ys: Name column of yield data of drought stress condition 
 *yp: Name column of yield data of potential condition
