@@ -15,7 +15,7 @@ Arguments
 - **ys:** Column name of yield data of drought stress condition. 
 - **yp:** Column name of yield data of potential condition.
 - **data:** A data frame.
-- **x:** A drought stress index calculated in the function __*"Thiry"*__.
+- **x:** A drought stress index (SSI, TOL, MP, GMP, and STI) calculated in the function __*"Thiry"*__.
 - **inv:** A logical value. If __inv=TRUE__, the drought stress index (__*x*__) is inverted. Default __inv=FALSE__.
 
 Values
@@ -23,10 +23,10 @@ Values
 - **$indexes:** A data frame of the drought stress indexes SSI, TOL, MP, GMP, and STI.
 - **$scores:** A data frame of the Thiry's scores.
 - **$corr1.:**  A matrix of Pearson correlation among the drought stress indexes and the Thiry's scores.
-- **$range:**    5     -none-     list   
-- **$comb1.:**  18     data.frame list   
-- **$corr2.:**   2     data.frame list   
-- **$comb2.:**   2     data.frame list  
+- **$range:** A list object with the range of the Thiry's scores of SSI, TOL, MP, GMP, and STI. 
+- **$comb1.:** A data frame of the Thiry's combinations of indexes.  
+- **$corr2.:** A matrix of Pearson correlation among Thiry's combinations and the yield data (**ys** and **yp**).
+- **$comb2.:** A data frame of the best Thiry's combination.
 
 Example
 -----
