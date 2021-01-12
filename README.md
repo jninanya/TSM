@@ -20,7 +20,13 @@ Arguments
 
 Values
 -----
-To load the package type:
+- **$indexes:**  5     data.frame list   
+- **$scores:**   5     data.frame list   
+- **$corr1.:**  25     -none-     numeric
+- **$range:**    5     -none-     list   
+- **$comb1.:**  18     data.frame list   
+- **$corr2.:**   2     data.frame list   
+- **$comb2.:**   2     data.frame list  
 
 Example
 -----
