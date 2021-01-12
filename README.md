@@ -11,12 +11,12 @@ ThiryScore(x,inv=FALSE)
 ```
 Arguments
 -----
--**nt:**
--**ys:** Name column of yield data of drought stress condition 
--**yp:** Name column of yield data of potential condition
--**data:**
--**x:**
--**inv:**
+- **nt:**
+- **ys:** Name column of yield data of drought stress condition 
+- **yp:** Name column of yield data of potential condition
+- **data:**
+- **x:**
+- **inv:**
 
 Values
 -----
