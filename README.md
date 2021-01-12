@@ -11,6 +11,15 @@ ThiryScore(x,inv=FALSE)
 ```
 Arguments
 -----
+id:
+ys: Name column of yield data of drought stress condition 
+yp: Name column of yield data of potential condition
+data:
+x:
+inv:
+
+Values
+-----
 To load the package type:
 
 Example
