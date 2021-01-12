@@ -6,7 +6,8 @@ R function to calculate Productivity (PCI) and Resilience (RCI) Capacity Index a
 Usage
 -----
 ```{r eval=F}
-library(st4gi)
+Thiry(id,ys,yp,data)
+ThiryScore(x,inv=FALSE)
 ```
 Arguments
 -----
@@ -16,6 +17,6 @@ Example
 -----
 ```{r eval=F}
 n=20
-data=("id"=1:n,"ys"=runif(n)*5,"ys"=runif(n)*10)
+data=data.frame("id"=1:n,"ys"=runif(n)*5,"yp"=runif(n)*10)
 ts=Thiry("id","ys","yp",data)
 ```
