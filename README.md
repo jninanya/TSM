@@ -11,12 +11,12 @@ ThiryScore(x,inv=FALSE)
 ```
 Arguments
 -----
-- **id:** Row name of the data frame "data"
+- **id:** Row name of the data frame __*data*__
 - **ys:** Column name of yield data of drought stress condition 
 - **yp:** Column name of yield data of potential condition
 - **data:** Data frame
-- **x:**
-- **inv:**
+- **x:** A drought stress index calculated in the function __*"Thiry"*__
+- **inv:** A logical value. If inv=TRUE 
 
 Values
 -----
