@@ -5,15 +5,15 @@ R function to calculate Productivity (PCI) and Resilience (RCI) Capacity Index a
 
 Usage
 -----
-To load the package type:
-
 ```{r eval=F}
 library(st4gi)
 ```
+Arguments
+-----
+To load the package type:
 
 Example
 -----
-
 ```{r eval=F}
 help(package = st4gi)
 ```
