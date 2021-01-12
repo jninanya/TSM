@@ -1,7 +1,7 @@
 STM
 =====
 
-R function to calculate Productivity (PCI) and Resilience (RCI) Capacity Index according to [Thiry's](https://doi.org/10.1093/jxb/erw330) Screening Method (TSM)
+R function to calculate Productivity (PCI) and Resilience (RCI) Capacity Index according to [Thiry's](https://doi.org/10.1093/jxb/erw330) Screening Method (TSM).
 
 Usage
 -----
@@ -11,12 +11,12 @@ ThiryScore(x,inv=FALSE)
 ```
 Arguments
 -----
-- **id:** Row name of the data frame __*data*__
-- **ys:** Column name of yield data of drought stress condition 
-- **yp:** Column name of yield data of potential condition
-- **data:** A data frame
-- **x:** A drought stress index calculated in the function __*"Thiry"*__
-- **inv:** A logical value. If __*inv=TRUE*__, the drought stress index (__*x*__) is inverted. Default __*inv=FALSE*__
+- **id:** Row name of the data frame __*data*__.
+- **ys:** Column name of yield data of drought stress condition. 
+- **yp:** Column name of yield data of potential condition.
+- **data:** A data frame.
+- **x:** A drought stress index calculated in the function __*"Thiry"*__.
+- **inv:** A logical value. If __inv=TRUE__, the drought stress index (__*x*__) is inverted. Default __inv=FALSE__.
 
 Values
 -----
