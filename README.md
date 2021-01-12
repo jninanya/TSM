@@ -14,9 +14,9 @@ Arguments
 - **id:** Row name of the data frame __*data*__
 - **ys:** Column name of yield data of drought stress condition 
 - **yp:** Column name of yield data of potential condition
-- **data:** Data frame
+- **data:** A data frame
 - **x:** A drought stress index calculated in the function __*"Thiry"*__
-- **inv:** A logical value. If inv=TRUE 
+- **inv:** A logical value. If __*inv=TRUE*__, the drought stress index (__*x*__) is inverted. Default __*inv=FALSE*__
 
 Values
 -----
